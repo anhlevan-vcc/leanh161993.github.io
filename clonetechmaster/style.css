@@ -89,10 +89,10 @@ ol, ul {
     margin: 0 0 1rem 0;
 }
 ul {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 12px;
+    margin-block-end: 15px;
     margin-inline-start: 5px;
-    margin-inline-end: 0px;
+    margin-inline-end: 10px;
     padding-inline-start: 370px;
 }
 .desktop.parent-menu .parent-menu-item {
@@ -102,7 +102,7 @@ ul {
     position: relative;
     min-height: 30px;
     display: flex;
-    font-size: 1.1rem;
+    font-size: .1rem;
 }
 li {
     text-align: -webkit-match-parent;
