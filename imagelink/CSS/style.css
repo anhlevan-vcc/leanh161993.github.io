@@ -26,6 +26,7 @@ a.traicay2:hover {
 
 a:link {
     color: black;
+    text-decoration: none;
 }
 a:active {
     color: black;

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    
+}
+.box {
+    float: left;
+    width: 40%;
+}
+.box1, .box6 {
+    height: 400px;
+    width: 60%;
+    background-color: red;    
+}
+.box3, .box8 {
+    height: 200px;
+    width: 100%;
+    background-color: green;  
+}
+.box4, .box9 {
+    height: 200px;
+    width: 100%;
+    background-color: blue;    
+}
+
+.box5 {
+    background-color: white;
+    height: 400px;
+    width: 15px;
+    position: absolute;
+    right: 40%;
+    top: 450px;
+}
+span {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.box6, .box7, .box10, .box11, .box12 {
+    margin-top: 50px;
+}
+
+.box10 {
+    height: 400px;
+    width: 33.33%;
+    background-color: red;    
+}
+.box11 {
+    height: 400px;
+    width: 3333%;
+    background-color: green;  
+}
+.box12 {
+    height: 400px;
+    width: 33.33%;
+    background-color: blue;    
+}
