@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     
@@ -39,18 +42,41 @@ span {
     margin-top: 50px;
 }
 
-.box10 {
+.boxn {
     height: 400px;
-    width: 33.33%;
-    background-color: red;    
+    float: left;
 }
+
+.box10 {   
+    background-color: red;
+    width: 33.333333%;
+}
+
 .box11 {
-    height: 400px;
-    width: 3333%;
-    background-color: green;  
+    background-color: green;
+    width: 33.333333%;
 }
+
 .box12 {
-    height: 400px;
-    width: 33.33%;
-    background-color: blue;    
+    background-color: blue;
+    width: 33.333333%;
 }
+
+.box13 {
+    height: 400px;
+    width: 15px;
+    background-color: white;
+    margin-left: -10px;
+    display: inline-block;
+}
+
+.box14 {
+    height: 400px;
+    width: 15px;
+    background-color: white;
+    margin-left: -5px;
+    display: inline-block;
+}
+
+
+
