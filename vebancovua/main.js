@@ -6,6 +6,8 @@ canvas.height = 800
 canvas.style.border = '2px solid black'
 var bcv = canvas.getContext('2d')
 console.log(bcv)
+
+
 //vòng lặp
 for(j=0; j<8; j++){
     for(i=0; i<8; i++){
@@ -31,4 +33,3 @@ for(j=0; j<8; j++){
         }
     }
 }
-
