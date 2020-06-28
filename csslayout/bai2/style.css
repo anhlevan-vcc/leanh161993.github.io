@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+#menu{
+    background-color: cadetblue;
+    height: 10%;   
+}
+#main-menu p{
+    display: inline-flex;
+}
+
+.p1 {
+    padding-left: 16%;
+    padding-top: 5px;
+}
+p{
+    padding-right: 7%;
+}
+.row1{
+    width: 100%;
+    display: inline-flex;
+}
+.menu1{
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    background-color:pink;
+}
+.gallery{
+    float: left;
+    width: 25%;
+    padding-left: 4.5%;
+    padding-top: 15px;
+}
+.gallery img{
+    width: 80%;
+    height: 80%;
+} 
+.traicay1{
+    text-align: center;
+}
+.logo {
+    border-radius: 10px;
+}
