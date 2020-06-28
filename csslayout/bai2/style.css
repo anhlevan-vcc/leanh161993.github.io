@@ -15,11 +15,13 @@ body {
 }
 
 .p1 {
+    font-size: 20px;
     padding-left: 16%;
     padding-top: 5px;
 }
 p{
-    padding-right: 7%;
+    padding-right: 5%;
+    font-size: 20px;
 }
 .row1{
     width: 100%;
