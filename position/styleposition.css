@@ -18,17 +18,17 @@ body {
     width: 100%;
 }
 .noidung{
-    padding-left: 10%;
+    padding-left: 8%;
     width: 80%;
-    padding-right: 10%;
+    padding-right: 8%;
     text-align: justify;
 }
 
 #main-menu{
-    width:100%;
+    width:200px;
     min-height: 50%;
     
-    background-color: grey;
+    background-color: #3498db;
 }
 #main-menu a{
     display: flex;
