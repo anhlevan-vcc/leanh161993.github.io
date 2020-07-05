@@ -53,7 +53,7 @@ div .anh{
     margin-bottom: 300px;
     display: flex;
     justify-content: center;
-    animation: heart 0.3s ease infinite;
+    animation: heart 1s ease infinite;
 }
 @keyframes heart
 {
