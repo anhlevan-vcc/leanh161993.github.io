@@ -10,7 +10,7 @@ div .anh{
 }
 .anh img{
     width: 100%;
-    border: 5px solid #f8a5c2;
+    border: 3px solid #f8a5c2;
     transition: all 0.2s;
 }
 .anh img:hover {

@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    /* width: 100%; */
+    box-sizing: border-box;
+    background-color: #f1f2f6;
+}
+#menu{
+    background-color: cadetblue;
+    height: 5%; 
+    width: 100%;  
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+}
+#main-menu p{
+    display: inline-flex;
+}
+.traicay1{
+    width: 100%;
+}
+p{
+    padding-right: 3%;
+    padding-left: 3%;
+    font-size: 20px;
+}
+.traicay {
+    margin: 20px 10% 20px 10%;
+}
+a.traicay2 {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color:wheat;
+}
+a.traicay2:link {
+    background-color: gold;
+}
+a.traicay2:active {
+    background-color: gold;
+}
+a.traicay2:visited {
+    background-color: gold;
+}
+a.traicay2:hover {
+    background-color: green;
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+.khung{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+}
+#backtotop{
+    
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
+.loading{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+}
