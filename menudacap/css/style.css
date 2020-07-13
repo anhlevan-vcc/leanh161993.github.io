@@ -1,0 +1,207 @@
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        width: 80%;
+     
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .main-menu{
+        width: 100%;
+        min-width: 1000px;
+        height: 40px;
+        background: #e4e4e4;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      nav.main-menu > ul > li {
+        position: relative;
+        display: inline-block;
+        padding-right: 55px;
+      }
+
+      nav.main-menu ul li >a {
+        color: #32323d;
+        font-size: 14px;
+        text-transform: uppercase;
+        list-style-type: none;
+        line-height: 40px;
+      }
+      nav.main-menu ul li .level2 .column ul a {
+        color: #32323d;
+        font-size: 16px;
+        
+        list-style-type: none;
+        line-height: 40px;
+      }
+      nav.main-menu ul li .level2 .column ul a:hover {
+        color: #9877ff;
+      }
+      nav.main-menu ul li:hover > a {
+        color: #9877ff;
+      }
+
+      nav.main-menu .level2 {
+        width: 500px;
+        position: absolute;
+        top: 16px;
+        left: 0;
+        display: none;
+        margin-top: 25px;
+      }
+
+      nav.main-menu ul li:hover .level2 {
+        display: block;
+      }
+
+      nav.main-menu .level2 .column {
+        display: inline-block;
+        
+      }
+      .level2{
+        box-shadow: 2px 4px 2px 2px rgba(0, 0, 0, .25);
+        border-radius: 5px;
+        max-width: 300px;
+        max-height: 200px;
+      }
+      .level2 .column ul{
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-right: 30px;
+        line-height: 35px;
+        text-transform: none !important;
+        font-size: 20px;
+        list-style-type: none;
+        color:black;
+
+      }
+      .heading{
+        padding-top: 15px;
+        padding-left: 15px;
+        text-transform: uppercase;
+        font-size: 15px;
+      }  
+    .menulazada {
+        margin: 0;
+        background-color: white;
+        width: 200px;
+        border: 0.5 solid rgb(233, 233, 233);
+        padding: 0px 0 12px;
+        list-style: none;
+        height: 360px;
+        float: left;
+        position: relative;
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    
+    .menulazada ul {
+        margin: 0;
+        padding: 0px 0 11px !important;
+        width: 200px;
+        height: 270px;
+        background: #fff;
+    }
+    
+    .menulazada li {
+        list-style: none;
+        text-align: -webkit-match-parent;
+    }
+    
+    .menulazada a {
+        display: block;
+        padding-left: 10px;
+        height: 30px;
+        line-height: 25px;
+        text-decoration: none;
+        color: #757575;
+        font-size: 13px;
+        font-family: Roboto-Regular, sans-serif;
+        width: 100%;
+    }
+    
+    .menulazada a>span {
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    
+    .menulazada i {
+        display: none;
+        padding-right: 5px;
+        float: right;
+        font-size: 14px;
+        line-height: 27px !important;
+    }
+    
+    .menulazada>ul>li:hover {
+        color: #F36D00;
+    }
+    
+    .menulazada>ul>li:hover>a {
+        background-color: rgb(240, 240, 240);
+        text-decoration: none;
+        color: #F36D00;
+    }
+    
+    .menulazada>ul>li:hover>a>i {
+        display: inline-block;
+    }
+    
+    .menulazada>ul>li:hover .lazada1 {
+        display: block;
+        color: #757575;
+    }
+    
+    .lazada1 {
+        margin: 0;
+        padding: 0;
+        top: 0px;
+        left: 200px;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        display: none;
+        background: #fff;
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    
+    .lazada1>li:hover>a {
+        background-color: rgb(240, 240, 240);
+        text-decoration: none;
+        color: #F36D00;
+    }
+    
+    .lazada1>li:hover>a>i {
+        display: inline-block;
+    }
+    
+    .lazada1 li:hover .lazada2 {
+        display: block;
+    }
+    
+    .lazada2 {
+        margin: 0;
+        padding: 0;
+        top: 0px;
+        left: 200px;
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        display: none;
+        background: #fff;
+        box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    
+    .lazada2>li:hover>a {
+        text-decoration: none;
+        color: #F36D00;
+    }
