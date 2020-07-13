@@ -1,54 +1,54 @@
 
-      * {
+* {
         box-sizing: border-box;
-      }
+}
 
-      body {
+body {
         margin: 0;
         width: 80%;
      
         margin-left: auto;
         margin-right: auto;
       }
-      .main-menu{
+.main-menu{
         width: 100%;
         min-width: 1000px;
         height: 40px;
         background: #e4e4e4;
       }
 
-      a {
+a {
         text-decoration: none;
       }
 
-      nav.main-menu > ul > li {
+nav.main-menu > ul > li {
         position: relative;
         display: inline-block;
         padding-right: 55px;
       }
 
-      nav.main-menu ul li >a {
+nav.main-menu ul li >a {
         color: #32323d;
         font-size: 14px;
         text-transform: uppercase;
         list-style-type: none;
         line-height: 40px;
       }
-      nav.main-menu ul li .level2 .column ul a {
+nav.main-menu ul li .level2 .column ul a {
         color: #32323d;
         font-size: 16px;
         
         list-style-type: none;
         line-height: 40px;
       }
-      nav.main-menu ul li .level2 .column ul a:hover {
+nav.main-menu ul li .level2 .column ul a:hover {
         color: #9877ff;
       }
-      nav.main-menu ul li:hover > a {
+nav.main-menu ul li:hover > a {
         color: #9877ff;
       }
 
-      nav.main-menu .level2 {
+nav.main-menu .level2 {
         width: 500px;
         position: absolute;
         top: 16px;
@@ -57,21 +57,21 @@
         margin-top: 25px;
       }
 
-      nav.main-menu ul li:hover .level2 {
+nav.main-menu ul li:hover .level2 {
         display: block;
       }
 
-      nav.main-menu .level2 .column {
+nav.main-menu .level2 .column {
         display: inline-block;
         
       }
-      .level2{
+.level2{
         box-shadow: 2px 4px 2px 2px rgba(0, 0, 0, .25);
         border-radius: 5px;
         max-width: 300px;
         max-height: 200px;
       }
-      .level2 .column ul{
+.level2 .column ul{
         padding-left: 15px;
         padding-top: 5px;
         padding-right: 30px;
@@ -82,13 +82,13 @@
         color:black;
 
       }
-      .heading{
+.heading{
         padding-top: 15px;
         padding-left: 15px;
         text-transform: uppercase;
         font-size: 15px;
       }  
-    .menulazada {
+.menulazada {
         margin: 0;
         background-color: white;
         width: 200px;
@@ -101,7 +101,7 @@
         box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
     }
     
-    .menulazada ul {
+.menulazada ul {
         margin: 0;
         padding: 0px 0 11px !important;
         width: 200px;
@@ -109,12 +109,12 @@
         background: #fff;
     }
     
-    .menulazada li {
+.menulazada li {
         list-style: none;
         text-align: -webkit-match-parent;
     }
     
-    .menulazada a {
+.menulazada a {
         display: block;
         padding-left: 10px;
         height: 30px;
@@ -126,7 +126,7 @@
         width: 100%;
     }
     
-    .menulazada a>span {
+.menulazada a>span {
         display: inline-block;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -134,7 +134,7 @@
         cursor: pointer;
     }
     
-    .menulazada i {
+.menulazada i {
         display: none;
         padding-right: 5px;
         float: right;
@@ -142,26 +142,26 @@
         line-height: 27px !important;
     }
     
-    .menulazada>ul>li:hover {
+.menulazada>ul>li:hover {
         color: #F36D00;
     }
     
-    .menulazada>ul>li:hover>a {
+.menulazada>ul>li:hover>a {
         background-color: rgb(240, 240, 240);
         text-decoration: none;
         color: #F36D00;
     }
     
-    .menulazada>ul>li:hover>a>i {
+.menulazada>ul>li:hover>a>i {
         display: inline-block;
     }
     
-    .menulazada>ul>li:hover .lazada1 {
+.menulazada>ul>li:hover .lazada1 {
         display: block;
         color: #757575;
     }
     
-    .lazada1 {
+.lazada1 {
         margin: 0;
         padding: 0;
         top: 0px;
@@ -174,21 +174,21 @@
         box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
     }
     
-    .lazada1>li:hover>a {
+.lazada1>li:hover>a {
         background-color: rgb(240, 240, 240);
         text-decoration: none;
         color: #F36D00;
     }
     
-    .lazada1>li:hover>a>i {
+.lazada1>li:hover>a>i {
         display: inline-block;
     }
     
-    .lazada1 li:hover .lazada2 {
+.lazada1 li:hover .lazada2 {
         display: block;
     }
     
-    .lazada2 {
+.lazada2 {
         margin: 0;
         padding: 0;
         top: 0px;
@@ -201,7 +201,7 @@
         box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
     }
     
-    .lazada2>li:hover>a {
+.lazada2>li:hover>a {
         text-decoration: none;
         color: #F36D00;
     }
