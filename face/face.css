@@ -1,0 +1,106 @@
+body{
+    background-color: #dfe6e9;
+}
+.khung{
+    margin-left: 55%;
+    margin-top: 5%;
+    width: 377px;
+}
+.tieude1{
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    font-size: 36px;
+}
+.tieude2{
+    font-family: 'Freight Sans', Helvetica, Arial, sans-serif !important;
+    font-weight: normal !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    font-size: 19px;
+    line-height: 126%;
+    color: #333;
+    margin-top: 10px;
+}
+.row1{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+.row2{
+    margin-top: 10px;
+}
+.row3{
+    margin-top: 10px;
+}
+.input1{
+    width: 172px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    margin: 0;
+}
+.input2{
+    width: 172px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.input3{
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    margin: 0;
+    width: 377px;
+    font-size: 18px;
+    padding: 8px 10px;
+}
+.tieude3{
+    color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#day, #month, #year {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccd0d5;
+    margin-top: 10px;
+}
+#gioitinh{
+    margin-top: 10px;
+}
+.TuyChinh{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+button{
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #69a74e;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    font-size: 19px;
+    font-family: Helvetica, Arial, sans-serif;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    font-weight: bold;
+}
+button:hover{
+    background: linear-gradient(#79bc64, #578843);
+}
